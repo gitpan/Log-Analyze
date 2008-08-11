@@ -3,9 +3,10 @@ abstract: ~
 author:
   - 'takeshi miki <miki@cpan.org>'
 build_requires:
+  File::Spec: 0
   Test::More: 0
 distribution_type: module
-generated_by: 'Module::Install version 0.76'
+generated_by: 'Module::Install version 0.77'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -15,6 +16,8 @@ no_index:
   directory:
     - inc
     - t
+requires:
+  Carp: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.00001
+version: 0.00002

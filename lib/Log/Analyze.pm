@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Carp;
 
-our $VERSION = '0.00001';
+our $VERSION = '0.00002';
 
 sub new {
     my $class = shift;
@@ -87,10 +87,10 @@ Log::Analyze -
 =head1 SYNOPSIS
 
 =head2 default pattern(count up)
+
   use Log::Analyze;
   
   my $parser = Log::Analyze->new;
-  $parser->setup( column => [ foo bar baz ], do => count );
   
   #----------------
   # count 

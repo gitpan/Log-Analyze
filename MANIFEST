@@ -1,5 +1,6 @@
 .shipit
 Changes
+inc/File/Spec.pm
 inc/Module/Install.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
